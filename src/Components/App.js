@@ -1,7 +1,8 @@
-import './App.css';
+import '../App.css';
 import Nav from "./Nav";
 import '@picocss/pico'
 import Intro from "./Intro";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <div data-theme="dark">
             <Nav/>
             <Intro/>
+            <Contact/>
         </div>
     </main>
   );

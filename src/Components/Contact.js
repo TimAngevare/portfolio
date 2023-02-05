@@ -12,6 +12,7 @@ export default function Contact () {
     }, col : {
         display: "flex",
             flexWrap: "wrap",
+            paddingBottom: "5%"
         }}
     return(
         <div className="grid" style={styles.col}>

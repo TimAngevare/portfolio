@@ -1,5 +1,5 @@
 
-export default function Project(props) {
+export default function Post(props) {
     return(
         <div>
             <details>

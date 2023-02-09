@@ -1,0 +1,8 @@
+{
+    "projects" : [{
+      "title": "Quotes",
+      "description": "An app to store and view your quotes",
+      "link": "https://timangevare.github.io/quotes/",
+      "image": "https://timangevare.github.io/quotes/static/media/Quotes.749cfb310c282b23fa6b.png"
+    }]
+}

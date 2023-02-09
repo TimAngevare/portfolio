@@ -4,6 +4,7 @@ import '@picocss/pico'
 import Intro from "./Intro";
 import Contact from "./Contact";
 import Picture from "./Picture";
+import ProjectSection from "./ProjectSection";
 
 function App() {
     const genRandomInt = (list) => {
@@ -13,10 +14,21 @@ function App() {
   return (
     <main className="container">
         <div data-theme="dark">
-            <Nav/>
-            <Intro genRandomInt={genRandomInt}/>
-            <Contact/>
-            <Picture genRandomInt={genRandomInt}/>
+            <div>
+                <Nav/>
+            </div>
+            <div className="padding-t">
+                <Intro genRandomInt={genRandomInt}/>
+            </div>
+            <div className="padding-t">
+                <Contact/>
+            </div>
+            <div >
+                <Picture genRandomInt={genRandomInt}/>
+            </div>
+            <div className="padding-t">
+                <ProjectSection/>
+            </div>
         </div>
     </main>
   );

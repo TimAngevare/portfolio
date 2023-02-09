@@ -1,9 +1,8 @@
-import { createApi } from 'unsplash-js';
 import {useEffect, useState} from "react";
 
 export default function Picture(props) {
     const [pictures, setPictures] = useState("");
-    const locations = ["new york city", "Enschede", "Amersfoort"];
+    const locations = ["new york city", "buildings", "skyline", "nature"];
     const pictureStyle = {
         width: "90%",
         height: "auto",
@@ -14,23 +13,14 @@ export default function Picture(props) {
 
     useEffect(() => {
         const ranInt = props.genRandomInt(locations)
-        const unsplash = createApi({
-            accessKey: process.env.REACT_APP_UNSPLASH_ACCESS,
-            fetch: fetch,
-        });
-        const call = unsplash.photos.getRandom({
-            query: locations[ranInt],
-            orientation: 'landscape'
-        }).then(res => {
-            setPictures(res.response.urls.regular);
-        })
-    },[])
+        setPictures("https://source.unsplash.com/random/1100x300?" + locations[ranInt]);
+    })
 
 
 
     return(
         <div className="container">
-            <img src={pictures} style={pictureStyle}/>
+            <img src={pictures} style={pictureStyle} alt="a nice background"/>
         </div>
     );
 }

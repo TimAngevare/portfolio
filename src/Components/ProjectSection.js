@@ -11,7 +11,7 @@ export default function ProjectSection() {
     }, []);
 
     return(
-        <div>
+        <div id="projects">
             <hgroup>
                 <h2>Projects</h2>
                 <h3>These are the projects I have created or collaborated on through the years ✏️</h3>

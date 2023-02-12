@@ -1,8 +1,18 @@
 {
     "projects" : [{
       "title": "Quotes",
-      "description": "An app to store and view your quotes",
+      "description": "In various social circles, you have quotes people said that you want to keep track of. Now you can! On this website you can create an account in order to upload your collection of quotes and share these.",
       "link": "https://timangevare.github.io/quotes/",
       "image": "https://timangevare.github.io/quotes/static/media/Quotes.749cfb310c282b23fa6b.png"
-    }]
+    }, {
+      "title" : "Domsquare time trap",
+      "description" : "As my thesis in high school I followed a course on the University of Utrecht. Our task was to design an IT solution in order to educate the user on the history of the dom square. Here I collaborated on a team of developers, historians, and liberal arts students",
+      "link" : "https://timetrap.livingpasts.com/introduction",
+      "image" : "https://timetrap.livingpasts.com//assets/img/introduction/backgroud nassau_buys ballot_sun. 2 colour_publicdomain1.jpg"
+    }, {
+      "title" : "Scrabble",
+      "description" : "As a project for bit module 02 we created a TUI version of Scrabble in  Java.",
+      "link" : "https://github.com/TimAngevare/Scrabble"
+    }
+    ]
 }

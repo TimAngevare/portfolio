@@ -2,19 +2,22 @@
 export default function Post(props) {
     return(
         <div>
-            <details>
-                <summary>{props.title}</summary>
-                <div className="grid" >
+            <article>
+                <header>
                     <div>
-                        <img src={props.image} style={{width : "40%"}} alt={props.title + " image"}/>
+                        {props.title}
                     </div>
-                    <div>
-                        <p>{props.summary}</p>
-                        <a href={props.link}>{props.link}</a>
+                    <p>{props.date}</p>
+                </header>
+                    <div className="grid">
+                        { (props.image != undefined) &&
+                            <img style={{ maxHeight : "300px"}} src={props.image}></img>}
+                        <div>
+                            <p>{props.summary}</p>
+                            <a href={props.link}></a>
+                        </div>
                     </div>
-                </div>
-
-            </details>
+            </article>
         </div>
     );
 }

@@ -1,0 +1,15 @@
+{
+    "posts" : [{
+      "title": "Quotes",
+      "description": "Today I am officially going to launch it. For the past 4 months I have been working on the quotes app as a side project. I have now reached the point that I am satisfied with the product and feel happy to share it to the world. Check it out under my project section!",
+      "link": "https://timangevare.github.io/quotes/",
+      "image": "https://timangevare.github.io/quotes/static/media/Quotes.749cfb310c282b23fa6b.png",
+      "date" : "11/02/2023"
+    }, {
+      "title" : "Job as developer",
+      "description" : "Today I start as my job as a developer at eMagiz. Here I will mainly be developing in Mendix.",
+      "link" : "https://emagiz.com/en/",
+      "image" : "https://media.licdn.com/dms/image/D4E22AQF9unJo9dXXyA/feedshare-shrink_2048_1536/0/1670849491662?e=1678924800&v=beta&t=-X2CI1o-yjrAop7nONcp9C2ZGWp4ooc6K0BgDEB3oRs",
+      "date" : "21/02/2022"
+    }]
+}

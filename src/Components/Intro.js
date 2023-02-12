@@ -20,7 +20,7 @@ export default function Intro(props) {
         [greetings]);
 
     return(
-        <div>
+        <section>
             <hgroup>
                 <h2>
                     <TextTransition inline={true} springConfig={presets.slow}>
@@ -34,6 +34,6 @@ export default function Intro(props) {
                 </h3>
             </hgroup>
 
-        </div>
+        </section>
     );
 }

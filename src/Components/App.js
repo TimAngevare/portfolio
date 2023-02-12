@@ -5,6 +5,7 @@ import Intro from "./Intro";
 import Contact from "./Contact";
 import Picture from "./Picture";
 import ProjectSection from "./ProjectSection";
+import PostSection from "./PostSection";
 
 function App() {
     const genRandomInt = (list) => {
@@ -20,7 +21,7 @@ function App() {
             <div className="padding-t">
                 <Intro genRandomInt={genRandomInt}/>
             </div>
-            <div className="padding-t">
+            <div>
                 <Contact/>
             </div>
             <div >
@@ -29,6 +30,9 @@ function App() {
             <div className="padding-t">
                 <ProjectSection/>
             </div>
+            <section className="padding-t">
+                <PostSection/>
+            </section>
         </div>
     </main>
   );

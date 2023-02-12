@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Picture from "./Picture";
 import ProjectSection from "./ProjectSection";
 import PostSection from "./PostSection";
+import Footer from "./Footer";
 
 function App() {
     const genRandomInt = (list) => {
@@ -22,7 +23,7 @@ function App() {
                 <Intro genRandomInt={genRandomInt}/>
             </div>
             <div>
-                <Contact/>
+                <Contact contentWidth="13%" colWidth="50%"/>
             </div>
             <div >
                 <Picture genRandomInt={genRandomInt}/>
@@ -33,6 +34,7 @@ function App() {
             <section className="padding-t">
                 <PostSection/>
             </section>
+            <Footer/>
         </div>
     </main>
   );

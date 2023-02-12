@@ -4,15 +4,15 @@ import {ReactComponent as Github} from "../resources/github-outline-svgrepo-com.
 import {ReactComponent as CV} from "../resources/document-text-svgrepo-com.svg";
 import CVFile from "../resources/cv.pdf"
 
-export default function Contact () {
+export default function Contact (props) {
     const styles = { content : {
-        maxWidth : "13%",
+        maxWidth : props.contentWidth,
         height : "auto",
     }, col : {
         display: "flex",
             flexWrap: "wrap",
             paddingBottom: "5%",
-            maxWidth: "50%"
+            maxWidth: props.colWidth
 
         }}
 

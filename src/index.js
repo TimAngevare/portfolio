@@ -6,12 +6,14 @@ import Post from './Components/Post';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
+import Project from "./Components/Project";
+import PostSection from "./Components/PostSection";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <main className="container">
-        <div data-theme="dark">
+    <main className="container" data-theme="dark">
+        <div>
             <div>
                 <Nav/>
             </div>
@@ -20,6 +22,8 @@ root.render(
                     <Routes>
                         <Route path="/" element={<App/>}/>
                         <Route path="/posts" element={<Post/>}/>
+                        <Route path="/postSection" element={<PostSection/>}/>
+                        <Route path="/projects" element={<Project/>}/>
                     </Routes>
                 </Router>
             </React.StrictMode>

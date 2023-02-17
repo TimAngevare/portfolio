@@ -26,7 +26,8 @@ function App() {
               <ProjectSection/>
           </div>
           <section className="padding-t">
-              <PostSection/>
+              <PostSection limit={5}/>
+              <a href="/postSection">See all</a>
           </section>
       </div>
   );

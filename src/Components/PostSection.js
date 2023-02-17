@@ -1,20 +1,25 @@
 import {useEffect, useState} from "react";
 import Data from '../resources/posts.json';
 
-export default function PostSection() {
+export default function PostSection(props) {
     const [posts, setPosts] = useState([])
 
     useEffect(() => {
         const postList = Data.posts;
         const recentList = [];
-        for (let i = 0; i < 5; i++) {
-            const index = (postList.length - 1) - i;
-            if (index < 0) {
-                break;
+        if (props.limit != null) {
+            for (let i = 0; i < props.limit; i++) {
+                const index = (postList.length - 1) - i;
+                if (index < 0) {
+                    break;
+                }
+                recentList.push(postList[index]);
             }
-            recentList.push(postList[index]);
+            setPosts(recentList);
+        } else {
+            setPosts(postList);
         }
-        setPosts(recentList);
+
 
     }, []);
 

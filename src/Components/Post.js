@@ -1,23 +1,31 @@
+import Data from '../resources/posts.json';
+import {useEffect, useState} from "react";
+import {useLocation} from "react-router-dom";
 
-export default function Post(props) {
-    return(
+export default function Post() {
+    const location = useLocation();
+    const [param, setParams] = new URLSearchParams(location.search).get('id');
+    const [post, setPost] = useState(null);
+
+    useEffect(() => {
+        const postList = Data.posts
+        setPost(postList[param]);
+    }, [])
+
+    return (
         <div>
-            <article>
+            {post && <article>
                 <header>
                     <div>
-                        {props.title}
+                        {post.title}
                     </div>
-                    <p>{props.date}</p>
+                    <p>{post.date}</p>
                 </header>
-                    <div className="grid">
-                        { (props.image != undefined) &&
-                            <img style={{ maxHeight : "300px"}} src={props.image}></img>}
-                        <div>
-                            <p>{props.summary}</p>
-                            <a href={props.link}></a>
-                        </div>
-                    </div>
-            </article>
+                <div>
+                    <div dangerouslySetInnerHTML={{__html: post.content}}/>
+                </div>
+            </article>}
         </div>
+
     );
 }

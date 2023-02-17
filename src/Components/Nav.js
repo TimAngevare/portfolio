@@ -10,7 +10,7 @@ export default function Nav() {
         <nav>
             <ul>
                 <li>
-                    <img style={imageStyle} src={imageTim}/>
+                    <a href="/"><img style={imageStyle} src={imageTim}/></a>
                 </li>
                 <li>
                     <strong>Tim Angevare</strong>

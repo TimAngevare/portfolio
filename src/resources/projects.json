@@ -2,7 +2,7 @@
     "projects" : [{
       "title": "Quotes",
       "description": "In various social circles, you have quotes people said that you want to keep track of. Now you can! On this website you can create an account in order to upload your collection of quotes and share these.",
-      "link": "https://timangevare.github.io/quotes/",
+      "link": "https://timangevare.github.io/quotes/#/",
       "image": "https://timangevare.github.io/quotes/static/media/Quotes.749cfb310c282b23fa6b.png"
     }, {
       "title" : "Domsquare time trap",

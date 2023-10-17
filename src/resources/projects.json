@@ -1,15 +1,30 @@
 {
-    "projects" : [{
+  "projects": [
+    {
+      "title": "De Huispot",
+      "description": "With my part-time job I have learnt to use Mendix as a development tool. Due to it being low code, development time is faster and less skill is needed. This is my first application built with Mendix. I hate that collaborative finances in student homes go through excel sheets. It is difficult to read and lacks transparency. This started as a solution for my own student home, now it is utilized by 6 different student homes in Enschede. ",
+      "link": "https://schijtpaleis-sandbox.mxapps.io/",
+      "image": "https://s3.eu-west-2.amazonaws.com/timangevare.nl/Images/huispot.png"
+    },
+    {
+      "title": "Portfolio Megan",
+      "description": "While CSS is not my best skill, I took on the task to create a portfolio for my girlfriend Megan",
+      "link": "http://megsa.nl/",
+      "image": "https://s3.eu-west-2.amazonaws.com/timangevare.nl/Images/megan.png"
+    },
+    {
       "title": "Quotes",
       "description": "In various social circles, you have quotes people said that you want to keep track of. Now you can! On this website you can create an account in order to upload your collection of quotes and share these.",
       "link": "https://timangevare.github.io/quotes/#/",
       "image": "https://timangevare.github.io/quotes/static/media/Quotes.749cfb310c282b23fa6b.png"
-    }, {
-      "title" : "Domsquare time trap",
-      "description" : "As my thesis in high school I followed a course on the University of Utrecht. Our task was to design an IT solution in order to educate the user on the history of the dom square. Here I collaborated on a team of developers, historians, and liberal arts students",
-      "link" : "https://timetrap.livingpasts.com/introduction",
-      "image" : "https://timetrap.livingpasts.com//assets/img/introduction/backgroud nassau_buys ballot_sun. 2 colour_publicdomain1.jpg"
-    }, {
+    },
+    {
+      "title": "Domsquare time trap",
+      "description": "As my thesis in high school I followed a course on the University of Utrecht. Our task was to design an IT solution in order to educate the user on the history of the dom square. Here I collaborated on a team of developers, historians, and liberal arts students",
+      "link": "https://timetrap.livingpasts.com/introduction",
+      "image": "https://timetrap.livingpasts.com//assets/img/introduction/backgroud nassau_buys ballot_sun. 2 colour_publicdomain1.jpg"
+    },
+    {
       "title" : "Scrabble",
       "description" : "As a project for bit module 02 we created a TUI version of Scrabble in  Java.",
       "link" : "https://github.com/TimAngevare/Scrabble"

@@ -1,16 +1,21 @@
 {
   "projects": [
     {
-      "title": "De Huispot",
-      "description": "With my part-time job I have learnt to use Mendix as a development tool. Due to it being low code, development time is faster and less skill is needed. This is my first application built with Mendix. I hate that collaborative finances in student homes go through excel sheets. It is difficult to read and lacks transparency. This started as a solution for my own student home, now it is utilized by 6 different student homes in Enschede. ",
-      "link": "https://schijtpaleis-sandbox.mxapps.io/",
-      "image": "https://s3.eu-west-2.amazonaws.com/timangevare.nl/Images/huispot.png"
+      "title": "Chatalytics",
+      "description": "This is a side project to get a bit familliar with AWS. The functionality for the user is that you are able to upload a zip export of your whatsapp chat with an indivual or group and you will receive a png infographic of your statistics. This project has a wordpress frontend, which triggers an api call to an AWS Lambda for the Python analysis. This uploads a json to a S3 bucket and calls a Lambda to take a screenshot of a react infographic.",
+      "link": "https://chatalytics.nl/",
+      "image": "https://chatalytics.nl/wp-content/uploads/2024/12/picture-1.png"
     },
     {
-      "title": "Portfolio Megan",
-      "description": "While CSS is not my best skill, I took on the task to create a portfolio for my girlfriend Megan",
-      "link": "http://megsa.nl/",
-      "image": "https://s3.eu-west-2.amazonaws.com/timangevare.nl/Images/megan.png"
+      "title": "Business Days registration app ",
+      "description": "Another Mendix project... The process of registrating and creating badges at the Business Days twente was a manual process that left it open to mistakes. Insights on who visited the fair were minimal and no differences between companies and students were made. The app I created would take the registration of visitor, push it to a database for dashboarding and would generate a pdf with a color coded badge by study and or company.",
+      "link": "https://www.businessdaystwente.nl/",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQHU8ntCkzwx8g/feedshare-shrink_1280/feedshare-shrink_1280/0/1712255449255?e=1741824000&v=beta&t=Z80IsH9PF5ylObJzIK36cqO7wcOIaxgldLwOxuyDOIA"
+    },
+    {
+      "title": "De Huispot",
+      "description": "With my part-time job I have learnt to use Mendix as a development tool. Due to it being low code, development time is faster and less skill is needed. This is my first application built with Mendix. I hate that collaborative finances in student homes go through excel sheets. It is difficult to read and lacks transparency. This started as a solution for my own student home, now it is utilized by 6 different student homes in Enschede. ",
+      "link": "https://schijtpaleis-sandbox.mxapps.io/"
     },
     {
       "title": "Quotes",

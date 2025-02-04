@@ -19,9 +19,9 @@ function App() {
           <div>
               <Contact contentWidth="13%" colWidth="50%"/>
           </div>
-          <div>
+          {/* <div>
               <Picture genRandomInt={genRandomInt}/>
-          </div>
+          </div> */}
           <div className="padding-t">
               <ProjectSection/>
           </div>

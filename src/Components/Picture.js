@@ -13,7 +13,7 @@ export default function Picture(props) {
 
     const genPicture = () => {
         const ranInt = props.genRandomInt(locations)
-        setPictures(`https://source.unsplash.com/random/${Math.round(window.screen.width * 0.9)}x${Math.round(window.screen.height * 0.3)}?${locations[ranInt]}`);
+        setPictures(`https://source.unsplash.com/random/`);
     }
 
     useEffect(() => {

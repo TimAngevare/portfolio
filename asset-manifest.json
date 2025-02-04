@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.3cc878ac.css",
+    "main.js": "/porfolio/static/js/main.f7350741.js",
+    "static/media/tim.jpeg": "/porfolio/static/media/tim.c28698f5ee8963f2f18c.jpeg",
+    "static/media/cv.pdf": "/porfolio/static/media/cv.31d9bc23dcc310dc70af.pdf",
+    "static/media/linkedin-outline-svgrepo-com.svg": "/porfolio/static/media/linkedin-outline-svgrepo-com.3a92dcd032fb342771296b0cb57d0218.svg",
+    "static/media/github-outline-svgrepo-com.svg": "/porfolio/static/media/github-outline-svgrepo-com.753dd0b696dd924485e30c58825b7663.svg",
+    "static/media/document-text-svgrepo-com.svg": "/porfolio/static/media/document-text-svgrepo-com.b1e4bf9aaa9b72eabecde95b4a23f7e0.svg",
+    "static/media/instagram-outline-svgrepo-com.svg": "/porfolio/static/media/instagram-outline-svgrepo-com.b2c734fb4d628eefd1509d3ff1a17750.svg",
+    "index.html": "/porfolio/index.html",
+    "main.3cc878ac.css.map": "/porfolio/static/css/main.3cc878ac.css.map",
+    "main.f7350741.js.map": "/porfolio/static/js/main.f7350741.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cc878ac.css",
+    "static/js/main.f7350741.js"
+  ]
+}
